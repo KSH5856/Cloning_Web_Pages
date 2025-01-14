@@ -28,6 +28,7 @@ The repository is organized into folders, with each folder containing:
 
 - The web page clone code is present in index.html file along with its css file (styles.css).
 - Various assets are present in different folders of the project.
+- One small video of webpage from original website is present that has cloned via code.
 
   
   ## Note
