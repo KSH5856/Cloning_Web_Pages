@@ -8,13 +8,10 @@ Welcome to the **Web Page Cloning Practice** repository! This project is dedicat
 
 ## 🛠️ Project Overview
 
-This repository contains clones of popular web pages to:
+This repository contains clones of popular web pages like:
 
-- Hone frontend development skills.
-- Learn and practice responsive design.
-- Understand the use of modern HTML and CSS techniques.
-- Experiment with web design patterns.
-
+- Optsra Home Page
+  
 ---
 
 ## 🌟 Features
@@ -29,7 +26,14 @@ This repository contains clones of popular web pages to:
 
 The repository is organized into folders, with each folder containing:
 
-- The web page clone.
-- A brief description in a `README.md` file inside each folder.
-- A screenshot of the cloned web page for reference.
+- The web page clone code is present in index.html file along with its css file (styles.css).
+- Various assets are present in different folders of the project.
+
+  
+  ## Note
+
+  - Icons and images may vary from actual web page.
+
+  
+
 
