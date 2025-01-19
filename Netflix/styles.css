@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    background-image: url("assets/backgroundImg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+}
+
+.main .nav {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    padding: 25px 6px;
+}
+
+.main .nav .btn .sign-in {
+    background-color: red;
+    border-radius: 7px;
+    width: 76px;
+    height: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.main .nav .btn select {
+    width: 120px;
+    height: 32px;
+    padding: 6px 16px;
+    background-color: black;
+    color: white;
+}
+
+.content {
+    color: antiquewhite;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    width: 36vw;
+    margin-top: 205px;
+
+}
+
+.content .head {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.content .subcontent {
+    margin: auto;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.content .btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 0px 10px;
+    height: 56px;
+}
+
+.content .btn input {
+    width: 66%;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    padding: 0px 15px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.content .btn button {
+    width: 33%;
+    border: 0px;
+    background-color: red;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.content .btn button span {
+    padding: 0px 5px;
+}
+
+.curve-container {
+    position: relative;
+    width: 99vw;
+    height: 37px;
+    margin: 86px auto;
+    border-top-right-radius: 100% 117%;
+    border-top-left-radius: 100% 117%;
+    box-shadow: 8px -13px 20px 0px red;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+
+
+.main-second-page {
+    background-color: black;
+    color: white;
+}
+
+.main-second-page .main-content-second-page {
+    width: 80vw;
+    margin: auto;
+}
+
+.main-second-page .main-content-second-page .header-content {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main-second-page .main-content-second-page .movie-btn {
+    margin-top: 25px;
+    display: flex;
+    gap: 35px;
+}
+
+.main-second-page .main-content-second-page .movie-btn select {
+    width: 95px;
+    height: 40px;
+    background-color: black;
+    color: antiquewhite;
+    padding-inline: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.main-second-page .main-content-second-page .img-cards {
+    display: flex;
+    gap: 40px;
+    margin: 30px 0px;
+    margin-bottom: 100px;
+}
+
+.main-second-page .main-content-second-page .img-cards .vertical-bar {
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-self: center;
+    height: 120px;
+    min-width: 24px;
+    border-radius: 10px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-second-page .main-content-second-page .img-cards .img-card {
+    display: flex;
+    position: relative;
+
+}
+
+.main-second-page .main-content-second-page .img-cards span {
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 0rem #352020;
+}
+
+.info-cards {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.info-cards .card {
+    height: 258px;
+    width: 293px;
+    border-radius: 20px;
+    padding: 30px 20px;
+    background-color: #1d162b;
+}
+
+.info-cards .card .card-head {
+    font-weight: 500;
+    font-size: 1.5rem;
+    min-height: 25%;
+}
+
+.info-cards .card .card-description {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 20px;
+    min-height: 40%;
+}
+
+.info-cards .card .card-icon {
+    margin-top: 10px;
+    min-height: 25%;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.main-second-page>.main-content-second-page>.FAQ-header-content {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main-second-page>.main-content-second-page>.FAQ-bars {
+    width: 80vw;
+    margin-top: 20px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-second-page>.main-content-second-page>.FAQ-bars>.bar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-inline: 30px;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.main-second-page>.main-content-second-page>.subcontent {
+    margin-top: 50px;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.main-second-page>.main-content-second-page>.btn {
+    display: flex;
+    margin-top: 20px;
+    margin-inline: auto;
+    width: 60%;
+    justify-content: center;
+    gap: 0px 10px;
+    height: 56px;
+}
+
+.main-second-page>.main-content-second-page>.btn>input {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    padding: 0px 15px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.main-second-page>.main-content-second-page>.btn>button {
+    width: 25%;
+    border: 0px;
+    background-color: red;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.main-second-page>.main-content-second-page>.btn>button>span {
+    padding: 0px 5px;
+}
+
+.main-second-page>.main-content-second-page>.help-support {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 60px;
+}
+
+.main-second-page>.main-content-second-page>.help-support>.head {
+    margin-bottom: 40px;
+}
+
+.main-second-page>.main-content-second-page>.help-support>.rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-decoration: underline;
+    gap: 10px;
+}
+
+.main-second-page>.main-content-second-page>.help-support>.head>span {
+    text-decoration: underline;
+}
+
+.data1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.head {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-second-page>.main-content-second-page>.btns {
+    margin: 60px 0px;
+}
+
+.main-second-page>.main-content-second-page>.btns>select {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 32px;
+    display: flex;
+    justify-content: start;
+    padding: 6px 16px;
+}
+
+.main-second-page>.margin {
+    margin-top: 40px;
+    border: 2px solid black;
+    color: black;
+}
