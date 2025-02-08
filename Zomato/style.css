@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 60vh;
+  background-image: url("asset/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.main > .nav {
+  display: flex;
+  width: 75vw;
+  align-items: center;
+  padding: 20px 0px;
+  margin: 0px auto;
+  font-size: 1rem;
+  justify-content: space-between;
+}
+
+.main > .nav > .nav-items {
+  display: flex;
+  gap: 5px;
+}
+
+.main > .nav > ul {
+  display: flex;
+  font-family: "Playfair Display", serif;
+  list-style: none;
+  gap: 50px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.main > .content > .header {
+  font-weight: 900;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main > .content > .content {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main > .content > .search-bar {
+  height: 52px;
+  margin-top: 40px;
+  width: 55vw;
+  border-radius: 10px;
+  margin-inline: auto;
+  align-items: center;
+  display: flex;
+  gap: 0px;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.main > .content > .search-bar > .search {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 100%;
+}
+
+.main > .content > .search-bar > .search > select {
+  width: 240px;
+  height: 100%;
+  border: 0px;
+}
+
+.main > .content > .search-bar > .input {
+  display: flex;
+  gap: 15px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main > .content > .search-bar > .input > input {
+  width: 500px;
+  height: 40px;
+  border: 0px solid black;
+}
+.main2 {
+  width: 70vw;
+  margin: auto;
+  margin-top: 40px;
+}
+.cardContent {
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: rgb(244 241 241);
+}
+
+.cardContent > .imgContent {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 150px;
+  background-image: url("asset/cardImg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 23px;
+  margin-inline: 25px;
+  color: rgb(54, 54, 54);
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.headingContent {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 64px;
+}
+.headingContent > span {
+  font-weight: 550;
+}
+
+.main2 > .places {
+  margin-top: 50px;
+  width: 360px;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 0px 3px 4px 4px #f2f2f2;
+}
+
+.main2 > .places > .data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.main2 > .places > .data > .head {
+  font-size: 22px;
+}
+.main2 > .places > .data > .description {
+  font-size: 18px;
+  color: gray;
+  font-weight: 500;
+}
+
+.main3 {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.main3 > .contact {
+  display: flex;
+  gap: 60px;
+}
+
+.main3 > .contact > .contactDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding-inline: 35px;
+}
+
+.main3 > .contact > .contactDescription > .headings {
+  font-weight: 900;
+  font-size: 44px;
+  margin-top: 20px;
+}
+.main3 > .contact > .contactDescription > .description1 {
+  font-size: 22px;
+}
+
+.main3 > .contact > .contactDescription > .radioBtn {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+}
+.main3 > .contact > .contactDescription > .radioBtn > .btn1 {
+  display: flex;
+  width: 15%;
+}
+.main3
+  > .contact
+  > .contactDescription
+  > .radioBtn
+  > .btn1
+  > input[type="radio"] {
+  width: 100%;
+  height: 18px;
+}
+.main3
+  > .contact
+  > .contactDescription
+  > .radioBtn
+  > .btn1
+  > input[type="radio"]:checked::after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: 0px;
+  left: 7px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  border: 2px solid red;
+}
+
+.main3 > .contact > .contactDescription > .email {
+  height: 50px;
+  display: flex;
+  gap: 10px;
+}
+.main3 > .contact > .contactDescription > .email > button {
+  background-color: rgb(239, 79, 95);
+  color: white;
+  border: 0px;
+  font-size: 18px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.main3 > .contact > .contactDescription > .email > input {
+  width: 300px;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #e9e2e2;
+}
+.main3 > .contact > .contactDescription > .contactDescription2 {
+  color: #b4a5a5;
+  font-size: 18px;
+}
+.main3 > .contact > .contactDescription > .contactImages {
+  display: flex;
+  gap: 20px;
+}
+
+.main4 {
+  width: 70vw;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.main4 > .head {
+  font-size: 40px;
+}
+.main4 > .cards {
+  margin: 30px 0px;
+  padding: 0px;
+}
+
+.main4 > .cards > .card {
+  padding: 0px 10px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  height: 66px;
+  align-items: center;
+  font-size: 22px;
+  border: 2px solid #e9e2e2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.main4 > .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main4 > .footer > .heading1 {
+  font-weight: bold;
+  font-size: 44px;
+}
+.main4 > .footer > .btnGroup {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.main4 > .footer > .btnGroup > .btn {
+  border-radius: 5px;
+  border: 2px solid #e9e2e2;
+  font-size: 18px;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 105px;
+  height: 30px;
+}
+.main4 > .footer > .btnGroup > .btn > select {
+  border: 0px;
+}
+.main4 > .footerContent{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main4 > .footerContent > .col1 > .col1Heading{
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.main4 > .footerContent > .col1  > .col1Content {
+  color : rgb(105, 105, 105);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.main4 > .footerContent > .col1  > .imgGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.main4 > .footerContent > .col1  > .imgPair {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.main4 > .line{
+  margin-top: 40px;
+  width: 100%;
+  height: 1px;
+  border-bottom: 2px solid #cfcfcf;
+}
+
+.main4 > .finalContent{
+  margin-top: 20px;
+  font-size: 20px;
+  color : rgb(105, 105, 105);
+}
